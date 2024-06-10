@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background: url('background.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.header-content {
+    padding: 0 20px;
+}
+
+.header-content h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.header-content p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.header-content .btn {
+    padding: 10px 20px;
+    background: #e63946;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.header-content .btn:hover {
+    background: #d12e35;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(25% - 30px);
+    max-width: calc(25% - 30px);
+    margin-bottom: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#pricing .pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pricing-item {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-item p {
+    font-size: 20px;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.pricing-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-item ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.pricing-item .btn {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background: #e63946;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.pricing-item .btn:hover {
+    background: #d12e35;
+}
+
+#signup, #contact {
+    background: rgba(247, 247, 247, 0.9);
+    padding: 40px 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#signup h2, #contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#signup form, #contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+#signup form label, #contact form label {
+    font-size: 16px;
+}
+
+#signup form input, #signup form button, #contact form input, #contact form textarea, #contact form button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#signup form button, #contact form button {
+    background: #e63946;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#signup form button:hover, #contact form button:hover {
+    background: #d12e35;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Membership Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">GymFlex</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Join Our Gym Today</h1>
+            <p>Get fit, stay healthy, and achieve your goals with GymFlex.</p>
+            <a href="#signup" class="btn">Sign Up Now</a>
+        </div>
+    </header>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>GymFlex is a state-of-the-art fitness center offering top-notch equipment, classes, and personal training to help you reach your fitness goals.</p>
+    </section>
+    
+    <section id="classes" class="gallery">
+        <h2>Our Classes</h2>
+        <div class="gallery-item"><img src="class1.jpg" alt="Yoga Class"></div>
+        <div class="gallery-item"><img src="class2.jpg" alt="Weight Training"></div>
+        <div class="gallery-item"><img src="class3.jpg" alt="Cardio"></div>
+        <div class="gallery-item"><img src="class4.jpg" alt="Zumba"></div>
+    </section>
+    
+    <section id="pricing">
+        <h2>Membership Pricing</h2>
+        <div class="pricing-table">
+            <div class="pricing-item">
+                <h3>Basic Plan</h3>
+                <p>1640/month</p>
+                <ul>
+                    <li>Access to gym equipment</li>
+                    <li>1 personal training session</li>
+                </ul>
+                <a href="#signup" class="btn">Sign Up</a>
+            </div>
+            <div class="pricing-item">
+                <h3>Standard Plan</h3>
+                <p>2870/month</p>
+                <ul>
+                    <li>Access to gym equipment</li>
+                    <li>5 personal training sessions</li>
+                    <li>Access to all classes</li>
+                </ul>
+                <a href="#signup" class="btn">Sign Up</a>
+            </div>
+            <div class="pricing-item">
+                <h3>Premium Plan</h3>
+                <p>4100/month</p>
+                <ul>
+                    <li>Access to gym equipment</li>
+                    <li>Unlimited personal training</li>
+                    <li>Access to all classes</li>
+                    <li>Free gym merchandise</li>
+                </ul>
+                <a href="#signup" class="btn">Sign Up</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="signup">
+        <h2>Sign Up</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit" class="btn">Sign Up Now</button>
+        </form>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name-contact">Name:</label>
+            <input type="text" id="name-contact" name="name-contact" required>
+            <label for="email-contact">Email:</label>
+            <input type="email" id="email-contact" name="email-contact" required>
+            <label for="message-contact">Message:</label>
+            <textarea id="message-contact" name="message-contact" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 GymFlex. All rights reserved.</p>
+    </footer>
+</body>
+</html>
